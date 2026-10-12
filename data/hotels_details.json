@@ -1,0 +1,698 @@
+[
+ {
+  "hotel_id": "HT-001",
+  "price_per_night": 174.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-002",
+  "price_per_night": 120.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-003",
+  "price_per_night": 119.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-004",
+  "price_per_night": 124.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-005",
+  "price_per_night": 134.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-006",
+  "price_per_night": 113.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-007",
+  "price_per_night": 116.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-008",
+  "price_per_night": 71.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-009",
+  "price_per_night": 143.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-010",
+  "price_per_night": 102.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-011",
+  "price_per_night": 80.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-012",
+  "price_per_night": 118.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-013",
+  "price_per_night": 98.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-014",
+  "price_per_night": 119.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-015",
+  "price_per_night": 127.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-016",
+  "price_per_night": 139.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-017",
+  "price_per_night": 127.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-018",
+  "price_per_night": 123.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-019",
+  "price_per_night": 123.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-020",
+  "price_per_night": 101.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-021",
+  "price_per_night": 116.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-022",
+  "price_per_night": 168.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-023",
+  "price_per_night": 98.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-024",
+  "price_per_night": 126.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-025",
+  "price_per_night": 129.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-026",
+  "price_per_night": 147.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-027",
+  "price_per_night": 114.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-028",
+  "price_per_night": 111.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-029",
+  "price_per_night": 130.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-030",
+  "price_per_night": 127.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-031",
+  "price_per_night": 109.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-032",
+  "price_per_night": 148.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-033",
+  "price_per_night": 137.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-034",
+  "price_per_night": 118.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-035",
+  "price_per_night": 80.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-036",
+  "price_per_night": 135.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-037",
+  "price_per_night": 93.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-038",
+  "price_per_night": 101.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-039",
+  "price_per_night": 111.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-040",
+  "price_per_night": 77.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-041",
+  "price_per_night": 112.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-042",
+  "price_per_night": 91.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-043",
+  "price_per_night": 94.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-044",
+  "price_per_night": 175.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-045",
+  "price_per_night": 86.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-046",
+  "price_per_night": 110.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-047",
+  "price_per_night": 81.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-048",
+  "price_per_night": 126.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-049",
+  "price_per_night": 154.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-050",
+  "price_per_night": 145.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-051",
+  "price_per_night": 88.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-052",
+  "price_per_night": 103.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-053",
+  "price_per_night": 114.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-054",
+  "price_per_night": 112.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-055",
+  "price_per_night": 76.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-056",
+  "price_per_night": 127.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-057",
+  "price_per_night": 167.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-058",
+  "price_per_night": 140.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-059",
+  "price_per_night": 74.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-060",
+  "price_per_night": 125.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-061",
+  "price_per_night": 93.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-062",
+  "price_per_night": 134.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-063",
+  "price_per_night": 124.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-064",
+  "price_per_night": 127.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-065",
+  "price_per_night": 74.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-066",
+  "price_per_night": 101.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-067",
+  "price_per_night": 131.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-068",
+  "price_per_night": 144.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-069",
+  "price_per_night": 90.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-070",
+  "price_per_night": 153.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-071",
+  "price_per_night": 147.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-072",
+  "price_per_night": 112.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-073",
+  "price_per_night": 110.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-074",
+  "price_per_night": 103.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-075",
+  "price_per_night": 147.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-076",
+  "price_per_night": 120.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-077",
+  "price_per_night": 117.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-078",
+  "price_per_night": 112.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-079",
+  "price_per_night": 136.0,
+  "step_free_entrance": true,
+  "elevator": false,
+  "breakfast_included": true,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-080",
+  "price_per_night": 97.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-081",
+  "price_per_night": 68.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-082",
+  "price_per_night": 92.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-083",
+  "price_per_night": 58.0,
+  "step_free_entrance": false,
+  "elevator": false,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-084",
+  "price_per_night": 130.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-085",
+  "price_per_night": 118.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-086",
+  "price_per_night": 95.0,
+  "step_free_entrance": false,
+  "elevator": true,
+  "breakfast_included": false,
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-087",
+  "price_per_night": 105.0,
+  "step_free_entrance": true,
+  "elevator": true,
+  "breakfast_included": true,
+  "cancellation_policy": "free_cancellation"
+ }
+]

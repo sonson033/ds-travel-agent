@@ -1,0 +1,28 @@
+{
+ "note": "Suggested failure rates for your mock tool layer. Use a fixed seed so runs are reproducible.",
+ "seed": 1234,
+ "tools": {
+  "flight_search": {
+   "timeout_rate": 0.05,
+   "empty_result_rate": 0.05
+  },
+  "flight_booking_price": {
+   "timeout_rate": 0.03
+  },
+  "hotel_listing": {
+   "timeout_rate": 0.03
+  },
+  "hotel_details": {
+   "timeout_rate": 0.08
+  },
+  "activity_search": {
+   "empty_result_rate": 0.08
+  },
+  "weather": {
+   "timeout_rate": 0.1
+  },
+  "booking": {
+   "fail_rate": 0.05
+  }
+ }
+}

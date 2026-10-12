@@ -1,0 +1,18 @@
+# Personal notes (local only)
+MEINE_NOTIZEN.md
+
+# Environment
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/

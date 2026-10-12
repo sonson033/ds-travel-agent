@@ -1,0 +1,1668 @@
+[
+ {
+  "hotel_id": "HT-001",
+  "city": "LIS",
+  "name": "Hotel Old Town Lisbon 1",
+  "stars": 5,
+  "rating": 4.4,
+  "price_per_night": 174.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-002",
+  "city": "LIS",
+  "name": "Hotel Grand Lisbon 2",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 120.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "pool",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-003",
+  "city": "LIS",
+  "name": "Hotel Old Town Lisbon 3",
+  "stars": 4,
+  "rating": 4.3,
+  "price_per_night": 119.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "bar",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-004",
+  "city": "LIS",
+  "name": "Hotel Riverside Lisbon 4",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 124.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "pool",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-005",
+  "city": "LIS",
+  "name": "Hotel Boutique Lisbon 5",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 117.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-006",
+  "city": "LIS",
+  "name": "Hotel Harbour Lisbon 6",
+  "stars": 4,
+  "rating": 4.4,
+  "price_per_night": 113.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "bar",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-007",
+  "city": "LIS",
+  "name": "Hotel Central Lisbon 7",
+  "stars": 3,
+  "rating": 4.0,
+  "price_per_night": 116.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-008",
+  "city": "LIS",
+  "name": "Hotel Garden Lisbon 8",
+  "stars": 2,
+  "rating": 3.8,
+  "price_per_night": 71.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "pool",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-009",
+  "city": "BCN",
+  "name": "Hotel Old Town Barcelona 1",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 143.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "gym",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-010",
+  "city": "BCN",
+  "name": "Hotel Grand Barcelona 2",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 102.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-011",
+  "city": "BCN",
+  "name": "Hotel Riverside Barcelona 3",
+  "stars": 2,
+  "rating": 3.5,
+  "price_per_night": 80.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "bar",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-012",
+  "city": "BCN",
+  "name": "Hotel Boutique Barcelona 4",
+  "stars": 4,
+  "rating": 4.5,
+  "price_per_night": 118.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-013",
+  "city": "BCN",
+  "name": "Hotel Garden Barcelona 5",
+  "stars": 2,
+  "rating": 3.7,
+  "price_per_night": 98.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "gym",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-014",
+  "city": "BCN",
+  "name": "Hotel Harbour Barcelona 6",
+  "stars": 4,
+  "rating": 4.1,
+  "price_per_night": 119.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-015",
+  "city": "BCN",
+  "name": "Hotel Riverside Barcelona 7",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 127.0,
+  "amenities": [
+   "wifi",
+   "pool",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-016",
+  "city": "BCN",
+  "name": "Hotel Riverside Barcelona 8",
+  "stars": 5,
+  "rating": 4.4,
+  "price_per_night": 139.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-017",
+  "city": "FCO",
+  "name": "Hotel Old Town Rome 1",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 127.0,
+  "amenities": [
+   "wifi",
+   "parking",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-018",
+  "city": "FCO",
+  "name": "Hotel Old Town Rome 2",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 123.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-019",
+  "city": "FCO",
+  "name": "Hotel Grand Rome 3",
+  "stars": 3,
+  "rating": 4.0,
+  "price_per_night": 123.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "gym",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-020",
+  "city": "FCO",
+  "name": "Hotel Plaza Rome 4",
+  "stars": 3,
+  "rating": 3.9,
+  "price_per_night": 101.0,
+  "amenities": [
+   "wifi",
+   "parking",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-021",
+  "city": "FCO",
+  "name": "Hotel Harbour Rome 5",
+  "stars": 4,
+  "rating": 4.3,
+  "price_per_night": 116.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "spa",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-022",
+  "city": "FCO",
+  "name": "Hotel Garden Rome 6",
+  "stars": 5,
+  "rating": 4.4,
+  "price_per_night": 168.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-023",
+  "city": "FCO",
+  "name": "Hotel Harbour Rome 7",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 98.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-024",
+  "city": "FCO",
+  "name": "Hotel Plaza Rome 8",
+  "stars": 4,
+  "rating": 4.3,
+  "price_per_night": 126.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-025",
+  "city": "PRG",
+  "name": "Hotel Boutique Prague 1",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 129.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "bar",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-026",
+  "city": "PRG",
+  "name": "Hotel Garden Prague 2",
+  "stars": 5,
+  "rating": 4.6,
+  "price_per_night": 147.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-027",
+  "city": "PRG",
+  "name": "Hotel Riverside Prague 3",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 114.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-028",
+  "city": "PRG",
+  "name": "Hotel Riverside Prague 4",
+  "stars": 4,
+  "rating": 4.4,
+  "price_per_night": 111.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-029",
+  "city": "PRG",
+  "name": "Hotel Garden Prague 5",
+  "stars": 3,
+  "rating": 4.0,
+  "price_per_night": 130.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-030",
+  "city": "PRG",
+  "name": "Hotel Central Prague 6",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 127.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-031",
+  "city": "PRG",
+  "name": "Hotel Boutique Prague 7",
+  "stars": 2,
+  "rating": 3.6,
+  "price_per_night": 109.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "pool",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-032",
+  "city": "PRG",
+  "name": "Hotel Riverside Prague 8",
+  "stars": 5,
+  "rating": 4.4,
+  "price_per_night": 148.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "bar",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-033",
+  "city": "VIE",
+  "name": "Hotel Riverside Vienna 1",
+  "stars": 5,
+  "rating": 4.3,
+  "price_per_night": 137.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-034",
+  "city": "VIE",
+  "name": "Hotel Riverside Vienna 2",
+  "stars": 2,
+  "rating": 4.0,
+  "price_per_night": 96.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "gym",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-035",
+  "city": "VIE",
+  "name": "Hotel Plaza Vienna 3",
+  "stars": 2,
+  "rating": 3.6,
+  "price_per_night": 80.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-036",
+  "city": "VIE",
+  "name": "Hotel Old Town Vienna 4",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 135.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-037",
+  "city": "VIE",
+  "name": "Hotel Riverside Vienna 5",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 93.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-038",
+  "city": "VIE",
+  "name": "Hotel Riverside Vienna 6",
+  "stars": 3,
+  "rating": 3.9,
+  "price_per_night": 101.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "gym",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-039",
+  "city": "VIE",
+  "name": "Hotel Garden Vienna 7",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 111.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-040",
+  "city": "VIE",
+  "name": "Hotel Riverside Vienna 8",
+  "stars": 2,
+  "rating": 3.8,
+  "price_per_night": 77.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-041",
+  "city": "ATH",
+  "name": "Hotel Old Town Athens 1",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 112.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "gym",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-042",
+  "city": "ATH",
+  "name": "Hotel Central Athens 2",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 91.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-043",
+  "city": "ATH",
+  "name": "Hotel Old Town Athens 3",
+  "stars": 2,
+  "rating": 3.6,
+  "price_per_night": 94.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "parking",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-044",
+  "city": "ATH",
+  "name": "Hotel Riverside Athens 4",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 136.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "gym",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-045",
+  "city": "ATH",
+  "name": "Hotel Central Athens 5",
+  "stars": 2,
+  "rating": 3.7,
+  "price_per_night": 86.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-046",
+  "city": "ATH",
+  "name": "Hotel Harbour Athens 6",
+  "stars": 3,
+  "rating": 4.0,
+  "price_per_night": 110.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-047",
+  "city": "ATH",
+  "name": "Hotel Boutique Athens 7",
+  "stars": 2,
+  "rating": 3.6,
+  "price_per_night": 81.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-048",
+  "city": "ATH",
+  "name": "Hotel Grand Athens 8",
+  "stars": 4,
+  "rating": 4.4,
+  "price_per_night": 126.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "gym",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-049",
+  "city": "AMS",
+  "name": "Hotel Central Amsterdam 1",
+  "stars": 5,
+  "rating": 4.7,
+  "price_per_night": 154.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-050",
+  "city": "AMS",
+  "name": "Hotel Boutique Amsterdam 2",
+  "stars": 4,
+  "rating": 4.1,
+  "price_per_night": 145.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-051",
+  "city": "AMS",
+  "name": "Hotel Central Amsterdam 3",
+  "stars": 2,
+  "rating": 3.6,
+  "price_per_night": 88.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-052",
+  "city": "AMS",
+  "name": "Hotel Grand Amsterdam 4",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 103.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "bar",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-053",
+  "city": "AMS",
+  "name": "Hotel Grand Amsterdam 5",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 114.0,
+  "amenities": [
+   "wifi",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-054",
+  "city": "AMS",
+  "name": "Hotel Harbour Amsterdam 6",
+  "stars": 4,
+  "rating": 4.3,
+  "price_per_night": 112.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-055",
+  "city": "AMS",
+  "name": "Hotel Garden Amsterdam 7",
+  "stars": 2,
+  "rating": 3.7,
+  "price_per_night": 76.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "gym",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-056",
+  "city": "AMS",
+  "name": "Hotel Boutique Amsterdam 8",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 127.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-057",
+  "city": "VLC",
+  "name": "Hotel Riverside Valencia 1",
+  "stars": 5,
+  "rating": 4.5,
+  "price_per_night": 167.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-058",
+  "city": "VLC",
+  "name": "Hotel Harbour Valencia 2",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 140.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "gym",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-059",
+  "city": "VLC",
+  "name": "Hotel Grand Valencia 3",
+  "stars": 2,
+  "rating": 3.7,
+  "price_per_night": 74.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "pool",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-060",
+  "city": "VLC",
+  "name": "Hotel Riverside Valencia 4",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 125.0,
+  "amenities": [
+   "wifi",
+   "bar",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-061",
+  "city": "VLC",
+  "name": "Hotel Garden Valencia 5",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 93.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "gym",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-062",
+  "city": "VLC",
+  "name": "Hotel Garden Valencia 6",
+  "stars": 4,
+  "rating": 4.0,
+  "price_per_night": 134.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "bar",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-063",
+  "city": "VLC",
+  "name": "Hotel Harbour Valencia 7",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 124.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "gym",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-064",
+  "city": "VLC",
+  "name": "Hotel Grand Valencia 8",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 127.0,
+  "amenities": [
+   "wifi",
+   "gym",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-065",
+  "city": "SPU",
+  "name": "Hotel Boutique Split 1",
+  "stars": 2,
+  "rating": 3.9,
+  "price_per_night": 74.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "pool",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-066",
+  "city": "SPU",
+  "name": "Hotel Grand Split 2",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 101.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-067",
+  "city": "SPU",
+  "name": "Hotel Riverside Split 3",
+  "stars": 4,
+  "rating": 4.1,
+  "price_per_night": 131.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-068",
+  "city": "SPU",
+  "name": "Hotel Harbour Split 4",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 144.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-069",
+  "city": "SPU",
+  "name": "Hotel Garden Split 5",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 90.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "parking",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-070",
+  "city": "SPU",
+  "name": "Hotel Old Town Split 6",
+  "stars": 4,
+  "rating": 4.1,
+  "price_per_night": 153.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "gym",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-071",
+  "city": "SPU",
+  "name": "Hotel Boutique Split 7",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 147.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-072",
+  "city": "SPU",
+  "name": "Hotel Harbour Split 8",
+  "stars": 4,
+  "rating": 4.5,
+  "price_per_night": 112.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "parking",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-073",
+  "city": "PMO",
+  "name": "Hotel Riverside Palermo 1",
+  "stars": 3,
+  "rating": 3.8,
+  "price_per_night": 110.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "parking",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-074",
+  "city": "PMO",
+  "name": "Hotel Old Town Palermo 2",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 103.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "bar",
+   "gym"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-075",
+  "city": "PMO",
+  "name": "Hotel Riverside Palermo 3",
+  "stars": 4,
+  "rating": 4.2,
+  "price_per_night": 147.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "pool",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-076",
+  "city": "PMO",
+  "name": "Hotel Boutique Palermo 4",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 120.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "parking",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-077",
+  "city": "PMO",
+  "name": "Hotel Old Town Palermo 5",
+  "stars": 3,
+  "rating": 3.9,
+  "price_per_night": 117.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-078",
+  "city": "PMO",
+  "name": "Hotel Harbour Palermo 6",
+  "stars": 4,
+  "rating": 4.5,
+  "price_per_night": 112.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "bar",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-079",
+  "city": "PMO",
+  "name": "Hotel Harbour Palermo 7",
+  "stars": 5,
+  "rating": 4.7,
+  "price_per_night": 136.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "pool",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": false
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-080",
+  "city": "PMO",
+  "name": "Hotel Garden Palermo 8",
+  "stars": 2,
+  "rating": 3.8,
+  "price_per_night": 78.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-081",
+  "city": "LIS",
+  "name": "Hotel Alfama Light",
+  "stars": 3,
+  "rating": 4.1,
+  "price_per_night": 68.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "spa",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-082",
+  "city": "BCN",
+  "name": "Hotel Gracia Sol",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 92.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "spa",
+   "parking"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-083",
+  "city": "BCN",
+  "name": "Hostal Born",
+  "stars": 2,
+  "rating": 3.8,
+  "price_per_night": 58.0,
+  "amenities": [
+   "wifi",
+   "spa",
+   "pool"
+  ],
+  "accessibility": {
+   "step_free": false,
+   "elevator": false
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-084",
+  "city": "AMS",
+  "name": "Hotel Grachtenblick",
+  "stars": 4,
+  "rating": 4.5,
+  "price_per_night": 130.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "parking",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ },
+ {
+  "hotel_id": "HT-085",
+  "city": "AMS",
+  "name": "Hotel De Zon",
+  "stars": 3,
+  "rating": 4.3,
+  "price_per_night": 118.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "gym",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "non_refundable"
+ },
+ {
+  "hotel_id": "HT-086",
+  "city": "AMS",
+  "name": "Hotel Pijp Quartier",
+  "stars": 3,
+  "rating": 4.2,
+  "price_per_night": 95.0,
+  "amenities": [
+   "wifi",
+   "lift",
+   "parking",
+   "bar"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_until_48h"
+ },
+ {
+  "hotel_id": "HT-087",
+  "city": "PRG",
+  "name": "Hotel Vltava Residence",
+  "stars": 4,
+  "rating": 4.4,
+  "price_per_night": 105.0,
+  "amenities": [
+   "wifi",
+   "breakfast",
+   "lift",
+   "bar",
+   "spa"
+  ],
+  "accessibility": {
+   "step_free": true,
+   "elevator": true
+  },
+  "cancellation_policy": "free_cancellation"
+ }
+]

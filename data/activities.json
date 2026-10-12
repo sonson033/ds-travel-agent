@@ -1,0 +1,1802 @@
+[
+ {
+  "activity_id": "AC-001",
+  "city": "LIS",
+  "name": "Lisbon food tour",
+  "type": "food_tour",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-002",
+  "city": "LIS",
+  "name": "Lisbon spa",
+  "type": "spa",
+  "duration_h": 4,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-003",
+  "city": "LIS",
+  "name": "Lisbon night walk",
+  "type": "night_walk",
+  "duration_h": 1,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "closed",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-004",
+  "city": "LIS",
+  "name": "Lisbon museum",
+  "type": "museum",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-005",
+  "city": "LIS",
+  "name": "Lisbon cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-006",
+  "city": "LIS",
+  "name": "Lisbon market visit",
+  "type": "market_visit",
+  "duration_h": 1,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-007",
+  "city": "LIS",
+  "name": "Lisbon guided tour",
+  "type": "guided_tour",
+  "duration_h": 3,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-008",
+  "city": "LIS",
+  "name": "Lisbon boat trip",
+  "type": "boat_trip",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-009",
+  "city": "LIS",
+  "name": "Lisbon outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 3,
+  "price": 8.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-010",
+  "city": "LIS",
+  "name": "Lisbon park visit",
+  "type": "park_visit",
+  "duration_h": 3,
+  "price": 25.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-011",
+  "city": "BCN",
+  "name": "Barcelona food tour",
+  "type": "food_tour",
+  "duration_h": 1,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-012",
+  "city": "BCN",
+  "name": "Barcelona market visit",
+  "type": "market_visit",
+  "duration_h": 3,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-013",
+  "city": "BCN",
+  "name": "Barcelona museum",
+  "type": "museum",
+  "duration_h": 4,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-014",
+  "city": "BCN",
+  "name": "Barcelona night walk",
+  "type": "night_walk",
+  "duration_h": 3,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-015",
+  "city": "BCN",
+  "name": "Barcelona outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 1,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-016",
+  "city": "BCN",
+  "name": "Barcelona boat trip",
+  "type": "boat_trip",
+  "duration_h": 1,
+  "price": 8.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-017",
+  "city": "BCN",
+  "name": "Barcelona spa",
+  "type": "spa",
+  "duration_h": 2,
+  "price": 8.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-018",
+  "city": "BCN",
+  "name": "Barcelona cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 2,
+  "price": 8.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-019",
+  "city": "BCN",
+  "name": "Barcelona guided tour",
+  "type": "guided_tour",
+  "duration_h": 3,
+  "price": 12.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-020",
+  "city": "BCN",
+  "name": "Barcelona park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-021",
+  "city": "FCO",
+  "name": "Rome boat trip",
+  "type": "boat_trip",
+  "duration_h": 4,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-022",
+  "city": "FCO",
+  "name": "Rome guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-023",
+  "city": "FCO",
+  "name": "Rome cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 4,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-024",
+  "city": "FCO",
+  "name": "Rome outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 4,
+  "price": 25.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-025",
+  "city": "FCO",
+  "name": "Rome park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-026",
+  "city": "FCO",
+  "name": "Rome spa",
+  "type": "spa",
+  "duration_h": 4,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-027",
+  "city": "FCO",
+  "name": "Rome food tour",
+  "type": "food_tour",
+  "duration_h": 3,
+  "price": 8.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "closed",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-028",
+  "city": "FCO",
+  "name": "Rome market visit",
+  "type": "market_visit",
+  "duration_h": 3,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-029",
+  "city": "FCO",
+  "name": "Rome night walk",
+  "type": "night_walk",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-030",
+  "city": "FCO",
+  "name": "Rome museum",
+  "type": "museum",
+  "duration_h": 2,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-031",
+  "city": "PRG",
+  "name": "Prague museum",
+  "type": "museum",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-032",
+  "city": "PRG",
+  "name": "Prague boat trip",
+  "type": "boat_trip",
+  "duration_h": 4,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-033",
+  "city": "PRG",
+  "name": "Prague park visit",
+  "type": "park_visit",
+  "duration_h": 3,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-034",
+  "city": "PRG",
+  "name": "Prague food tour",
+  "type": "food_tour",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-035",
+  "city": "PRG",
+  "name": "Prague spa",
+  "type": "spa",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-036",
+  "city": "PRG",
+  "name": "Prague outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 4,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-037",
+  "city": "PRG",
+  "name": "Prague night walk",
+  "type": "night_walk",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-038",
+  "city": "PRG",
+  "name": "Prague market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-039",
+  "city": "PRG",
+  "name": "Prague cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 3,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-040",
+  "city": "PRG",
+  "name": "Prague guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-041",
+  "city": "VIE",
+  "name": "Vienna boat trip",
+  "type": "boat_trip",
+  "duration_h": 4,
+  "price": 25.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-042",
+  "city": "VIE",
+  "name": "Vienna market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-043",
+  "city": "VIE",
+  "name": "Vienna spa",
+  "type": "spa",
+  "duration_h": 3,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-044",
+  "city": "VIE",
+  "name": "Vienna night walk",
+  "type": "night_walk",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-045",
+  "city": "VIE",
+  "name": "Vienna museum",
+  "type": "museum",
+  "duration_h": 3,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-046",
+  "city": "VIE",
+  "name": "Vienna cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 1,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-047",
+  "city": "VIE",
+  "name": "Vienna guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-048",
+  "city": "VIE",
+  "name": "Vienna outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 4,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-049",
+  "city": "VIE",
+  "name": "Vienna food tour",
+  "type": "food_tour",
+  "duration_h": 2,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-050",
+  "city": "VIE",
+  "name": "Vienna park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-051",
+  "city": "ATH",
+  "name": "Athens park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-052",
+  "city": "ATH",
+  "name": "Athens outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 1,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-053",
+  "city": "ATH",
+  "name": "Athens market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-054",
+  "city": "ATH",
+  "name": "Athens food tour",
+  "type": "food_tour",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-055",
+  "city": "ATH",
+  "name": "Athens boat trip",
+  "type": "boat_trip",
+  "duration_h": 1,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-056",
+  "city": "ATH",
+  "name": "Athens night walk",
+  "type": "night_walk",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-057",
+  "city": "ATH",
+  "name": "Athens cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-058",
+  "city": "ATH",
+  "name": "Athens spa",
+  "type": "spa",
+  "duration_h": 3,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-059",
+  "city": "ATH",
+  "name": "Athens museum",
+  "type": "museum",
+  "duration_h": 4,
+  "price": 12.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-060",
+  "city": "ATH",
+  "name": "Athens guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-061",
+  "city": "AMS",
+  "name": "Amsterdam boat trip",
+  "type": "boat_trip",
+  "duration_h": 4,
+  "price": 8.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-062",
+  "city": "AMS",
+  "name": "Amsterdam cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-063",
+  "city": "AMS",
+  "name": "Amsterdam park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-064",
+  "city": "AMS",
+  "name": "Amsterdam spa",
+  "type": "spa",
+  "duration_h": 2,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-065",
+  "city": "AMS",
+  "name": "Amsterdam guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-066",
+  "city": "AMS",
+  "name": "Amsterdam market visit",
+  "type": "market_visit",
+  "duration_h": 3,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-067",
+  "city": "AMS",
+  "name": "Amsterdam night walk",
+  "type": "night_walk",
+  "duration_h": 4,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-068",
+  "city": "AMS",
+  "name": "Amsterdam outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-069",
+  "city": "AMS",
+  "name": "Amsterdam museum",
+  "type": "museum",
+  "duration_h": 2,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-070",
+  "city": "AMS",
+  "name": "Amsterdam food tour",
+  "type": "food_tour",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-071",
+  "city": "VLC",
+  "name": "Valencia boat trip",
+  "type": "boat_trip",
+  "duration_h": 1,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-072",
+  "city": "VLC",
+  "name": "Valencia spa",
+  "type": "spa",
+  "duration_h": 2,
+  "price": 8.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-073",
+  "city": "VLC",
+  "name": "Valencia market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-074",
+  "city": "VLC",
+  "name": "Valencia guided tour",
+  "type": "guided_tour",
+  "duration_h": 1,
+  "price": 8.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-075",
+  "city": "VLC",
+  "name": "Valencia food tour",
+  "type": "food_tour",
+  "duration_h": 3,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-076",
+  "city": "VLC",
+  "name": "Valencia cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 3,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-077",
+  "city": "VLC",
+  "name": "Valencia museum",
+  "type": "museum",
+  "duration_h": 2,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-078",
+  "city": "VLC",
+  "name": "Valencia park visit",
+  "type": "park_visit",
+  "duration_h": 4,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-079",
+  "city": "VLC",
+  "name": "Valencia night walk",
+  "type": "night_walk",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-080",
+  "city": "VLC",
+  "name": "Valencia outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 2,
+  "price": 15.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-081",
+  "city": "SPU",
+  "name": "Split food tour",
+  "type": "food_tour",
+  "duration_h": 3,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-082",
+  "city": "SPU",
+  "name": "Split guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-083",
+  "city": "SPU",
+  "name": "Split spa",
+  "type": "spa",
+  "duration_h": 3,
+  "price": 25.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-084",
+  "city": "SPU",
+  "name": "Split park visit",
+  "type": "park_visit",
+  "duration_h": 2,
+  "price": 35.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-085",
+  "city": "SPU",
+  "name": "Split market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-086",
+  "city": "SPU",
+  "name": "Split night walk",
+  "type": "night_walk",
+  "duration_h": 4,
+  "price": 8.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-087",
+  "city": "SPU",
+  "name": "Split cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 3,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-088",
+  "city": "SPU",
+  "name": "Split museum",
+  "type": "museum",
+  "duration_h": 4,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-089",
+  "city": "SPU",
+  "name": "Split boat trip",
+  "type": "boat_trip",
+  "duration_h": 1,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-090",
+  "city": "SPU",
+  "name": "Split outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 3,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-091",
+  "city": "PMO",
+  "name": "Palermo spa",
+  "type": "spa",
+  "duration_h": 1,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-092",
+  "city": "PMO",
+  "name": "Palermo guided tour",
+  "type": "guided_tour",
+  "duration_h": 2,
+  "price": 35.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-093",
+  "city": "PMO",
+  "name": "Palermo park visit",
+  "type": "park_visit",
+  "duration_h": 1,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-094",
+  "city": "PMO",
+  "name": "Palermo outdoor hike",
+  "type": "outdoor_hike",
+  "duration_h": 1,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-095",
+  "city": "PMO",
+  "name": "Palermo boat trip",
+  "type": "boat_trip",
+  "duration_h": 2,
+  "price": 12.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-096",
+  "city": "PMO",
+  "name": "Palermo cooking workshop",
+  "type": "cooking_workshop",
+  "duration_h": 3,
+  "price": 15.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-097",
+  "city": "PMO",
+  "name": "Palermo market visit",
+  "type": "market_visit",
+  "duration_h": 2,
+  "price": 49.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "closed",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-098",
+  "city": "PMO",
+  "name": "Palermo food tour",
+  "type": "food_tour",
+  "duration_h": 1,
+  "price": 0.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "10:00-22:00",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ },
+ {
+  "activity_id": "AC-099",
+  "city": "PMO",
+  "name": "Palermo museum",
+  "type": "museum",
+  "duration_h": 4,
+  "price": 49.0,
+  "outdoor": false,
+  "opening_hours": {
+   "Mon": "09:00-18:00",
+   "Tue": "09:00-18:00",
+   "Wed": "09:00-18:00",
+   "Thu": "09:00-18:00",
+   "Fri": "09:00-18:00",
+   "Sat": "09:00-18:00",
+   "Sun": "09:00-18:00"
+  }
+ },
+ {
+  "activity_id": "AC-100",
+  "city": "PMO",
+  "name": "Palermo night walk",
+  "type": "night_walk",
+  "duration_h": 4,
+  "price": 0.0,
+  "outdoor": true,
+  "opening_hours": {
+   "Mon": "closed",
+   "Tue": "10:00-22:00",
+   "Wed": "10:00-22:00",
+   "Thu": "10:00-22:00",
+   "Fri": "10:00-22:00",
+   "Sat": "10:00-22:00",
+   "Sun": "10:00-22:00"
+  }
+ }
+]

@@ -1,0 +1,20 @@
+# LLM (local, via Ollama)
+ollama
+
+# Data analysis / EDA
+pandas
+matplotlib
+jupyter
+ipykernel
+
+# Calendars (.ics)
+icalendar
+
+# Config
+python-dotenv
+
+# Tests
+pytest
+
+# Our own package (src/travel_agent), editable install
+-e .

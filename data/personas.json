@@ -1,0 +1,26 @@
+[
+ {
+  "persona_id": "T1",
+  "name": "Mia Berger",
+  "home_airport": "BER",
+  "usual_party": 1,
+  "preferences": "Vegetarian, relaxed pace, likes cafes and walks, budget-conscious",
+  "accessibility_needs": "none"
+ },
+ {
+  "persona_id": "T2",
+  "name": "Jonas and Elif",
+  "home_airport": "MUC",
+  "usual_party": 2,
+  "preferences": "Likes outdoor activities and food, flexible on hotels",
+  "accessibility_needs": "none"
+ },
+ {
+  "persona_id": "T3",
+  "name": "The Weber family",
+  "home_airport": "FRA",
+  "usual_party": 4,
+  "preferences": "Two adults and two children (one uses a wheelchair), prefers short transfers",
+  "accessibility_needs": "step-free hotel with lift"
+ }
+]

@@ -1,0 +1,5 @@
+{"event_id": "D1", "request_id": "R01", "event_type": "flight_cancelled", "message": "Your outbound flight on 13 November has been cancelled by the airline. Please rebook."}
+{"event_id": "D2", "request_id": "R02", "event_type": "budget_cut", "message": "Our budget just dropped by 30 percent. Can you redo the plan?"}
+{"event_id": "D3", "request_id": "R02", "event_type": "storm_forecast", "message": "Update: a storm warning has been issued for Barcelona on Saturday 21 November. Outdoor activities may not be possible."}
+{"event_id": "D4", "request_id": "R03", "event_type": "hotel_sold_out", "message": "The hotel you picked is now sold out for our dates."}
+{"event_id": "D5", "request_id": "R01", "event_type": "traveler_added", "message": "A friend wants to join the trip. Can you add her and keep everything else the same?"}
