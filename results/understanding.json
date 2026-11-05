@@ -1,0 +1,413 @@
+[
+  {
+    "request_id": "R01",
+    "expected": "PLAN",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 4.9,
+    "form": {
+      "destination": "LIS",
+      "destination_flexible": false,
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-16",
+      "party": 1,
+      "budget_total": 450,
+      "budget_includes": [
+        "flights",
+        "hotel"
+      ],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [
+        "free_cancellation"
+      ],
+      "min_activities_per_day": null,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": "LIS",
+      "party": 1,
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-16",
+      "budget_total": 450,
+      "budget_includes": [
+        "flights",
+        "hotel"
+      ],
+      "hotel_requirements": [
+        "free_cancellation"
+      ],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": ""
+  },
+  {
+    "request_id": "R02",
+    "expected": "PLAN",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 4.9,
+    "form": {
+      "destination": "BCN",
+      "destination_flexible": false,
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-23",
+      "party": 2,
+      "budget_total": 1100,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": 1,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": "BCN",
+      "party": 2,
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-23",
+      "budget_total": 1100,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 1
+    },
+    "other_wishes": ""
+  },
+  {
+    "request_id": "R03",
+    "expected": "PLAN",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 4.8,
+    "form": {
+      "destination": "AMS",
+      "destination_flexible": false,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "party": 4,
+      "budget_total": 1500,
+      "budget_includes": [],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [
+        "step_free_with_elevator"
+      ],
+      "min_activities_per_day": null,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": "AMS",
+      "party": 4,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "budget_total": 1500,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [
+        "step_free_with_elevator"
+      ],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": ""
+  },
+  {
+    "request_id": "R04",
+    "expected": "ASK",
+    "decision": "ASK",
+    "missing": [
+      "start_date",
+      "end_date"
+    ],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 3.7,
+    "form": {
+      "destination": null,
+      "destination_flexible": true,
+      "start_date": null,
+      "end_date": null,
+      "party": null,
+      "budget_total": 800,
+      "budget_includes": [],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": "somewhere warm"
+    },
+    "constraints": {
+      "destination": null,
+      "party": 1,
+      "start_date": null,
+      "end_date": null,
+      "budget_total": 800,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": "somewhere warm"
+  },
+  {
+    "request_id": "R05",
+    "expected": "ASK",
+    "decision": "ASK",
+    "missing": [
+      "start_date",
+      "end_date",
+      "budget"
+    ],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 3.5,
+    "form": {
+      "destination": null,
+      "destination_flexible": true,
+      "start_date": null,
+      "end_date": null,
+      "party": null,
+      "budget_total": null,
+      "budget_includes": [],
+      "budget_mentioned_without_number": true,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": "cultural"
+    },
+    "constraints": {
+      "destination": null,
+      "party": 2,
+      "start_date": null,
+      "end_date": null,
+      "budget_total": null,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": "cultural"
+  },
+  {
+    "request_id": "R06",
+    "expected": "ASK",
+    "decision": "ASK",
+    "missing": [
+      "destination",
+      "start_date",
+      "end_date"
+    ],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 3.8,
+    "form": {
+      "destination": null,
+      "destination_flexible": false,
+      "start_date": "2026-04-20",
+      "end_date": null,
+      "party": null,
+      "budget_total": null,
+      "budget_includes": [],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": null,
+      "party": 1,
+      "start_date": null,
+      "end_date": null,
+      "budget_total": null,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": ""
+  },
+  {
+    "request_id": "R07",
+    "expected": "ASK",
+    "decision": "ASK",
+    "missing": [
+      "start_date",
+      "end_date"
+    ],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 3.8,
+    "form": {
+      "destination": null,
+      "destination_flexible": true,
+      "start_date": null,
+      "end_date": null,
+      "party": null,
+      "budget_total": null,
+      "budget_includes": [],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": "weather, interests, not too much walking"
+    },
+    "constraints": {
+      "destination": null,
+      "party": 4,
+      "start_date": null,
+      "end_date": null,
+      "budget_total": null,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [
+        "step_free_with_elevator"
+      ],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": "weather, interests, not too much walking"
+  },
+  {
+    "request_id": "R08",
+    "expected": "DECLINE",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 5.1,
+    "form": {
+      "destination": "PRG",
+      "destination_flexible": false,
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-16",
+      "party": 2,
+      "budget_total": 300,
+      "budget_includes": [
+        "hotel",
+        "hotel"
+      ],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [
+        "min_stars_4",
+        "breakfast"
+      ],
+      "min_activities_per_day": null,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": "PRG",
+      "party": 2,
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-16",
+      "budget_total": 300,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [
+        "min_stars_4",
+        "breakfast"
+      ],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": ""
+  },
+  {
+    "request_id": "R09",
+    "expected": "PLAN",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 4.6,
+    "form": {
+      "destination": "AMS",
+      "destination_flexible": false,
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "party": 2,
+      "budget_total": null,
+      "budget_includes": [],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": "sunshine, outdoors every day"
+    },
+    "constraints": {
+      "destination": "AMS",
+      "party": 2,
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "budget_total": null,
+      "budget_includes": [
+        "flights",
+        "hotel",
+        "activities"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": "sunshine, outdoors every day"
+  },
+  {
+    "request_id": "R10",
+    "expected": "DECLINE",
+    "decision": "PLAN",
+    "missing": [],
+    "decision_ok": true,
+    "wrong_fields": [],
+    "seconds": 4.7,
+    "form": {
+      "destination": "VIE",
+      "destination_flexible": false,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-04",
+      "party": 1,
+      "budget_total": 120,
+      "budget_includes": [
+        "flights",
+        "hotel"
+      ],
+      "budget_mentioned_without_number": false,
+      "hotel_requirements": [],
+      "min_activities_per_day": null,
+      "other_wishes": ""
+    },
+    "constraints": {
+      "destination": "VIE",
+      "party": 1,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-04",
+      "budget_total": 120,
+      "budget_includes": [
+        "flights",
+        "hotel"
+      ],
+      "hotel_requirements": [],
+      "min_activities_per_day": 0
+    },
+    "other_wishes": ""
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "summary": {
+    "correct reaction": "15/15",
+    "plan validity rate": "7/7 plans valid",
+    "avg tool calls per plan": 41.0,
+    "avg turns (user effort)": 1.33,
+    "tool failures (all cases)": {
+      "timeout": 64
+    },
+    "cases with unrecovered failures": [],
+    "avg seconds per case": 6.6
+  },
+  "cases": [
+    {
+      "case": "R01",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 351.0,
+      "tool_calls": 27,
+      "tool_failures": {
+        "timeout": 5
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 7.8,
+      "reply": "Here is your plan for Lisbon, 2026-11-13 to 2026-11-16:\n- Outbound: FL-0003 on 2026-11-13, 19:20 -> 23:02 (1 stop), 82 EUR per person\n- Return: FL-0004 on 2026-11-16, 10:30 -> 12:48 (direct), 65 EUR per person\n- Hotel: Hotel Alfama Light (3 stars), 3 nights at 68 EUR per night, cancellation: free cancellation\nTotal for 1 traveller: 351 EUR (budget 450 EUR)\n\nThe weather forecast shows some rain on your first day in Lisbon, but it clears up for the rest of your stay. Enjoy your trip!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "R02",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 492.0,
+      "tool_calls": 31,
+      "tool_failures": {
+        "timeout": 5
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 6.8,
+      "reply": "Here is your plan for Barcelona, 2026-11-20 to 2026-11-23:\n- Outbound: FL-0008 on 2026-11-20, 18:05 -> 21:41 (1 stop), 69 EUR per person\n- Return: FL-0010 on 2026-11-23, 17:55 -> 21:25 (1 stop), 74 EUR per person\n- Hotel: Hostal Born (2 stars), 3 nights at 58 EUR per night, cancellation: free until 48h\n- 2026-11-21: Barcelona boat trip (outdoor), 8 EUR per person\n- 2026-11-22: Barcelona spa (indoor), 8 EUR per person\nTotal for 2 travellers: 492 EUR (budget 1100 EUR)\n\nThe weather forecast looks mixed, with cloudy days and a chance of rain on your first and third days. The second and last days are expected to be sunny, which should make for pleasant outings. Enjoy your trip!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "R03",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 634.0,
+      "tool_calls": 27,
+      "tool_failures": {
+        "timeout": 5
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 6.3,
+      "reply": "Here is your plan for Amsterdam, 2026-11-06 to 2026-11-08:\n- Outbound: FL-0012 on 2026-11-06, 16:10 -> 19:46 (direct), 58 EUR per person\n- Return: FL-0015 on 2026-11-08, 20:10 -> 21:46 (direct), 49 EUR per person\n- Hotel: Hotel Grand Amsterdam 4 (3 stars), 2 nights at 103 EUR per night, cancellation: non refundable\nTotal for 4 travellers: 634 EUR (budget 1500 EUR)\n\nThe weather forecast isn't very sunny, with rain expected on both Friday and Saturday. Sunday might be a bit cloudy, so plan for indoor activities if you prefer. Enjoy your trip!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "R04",
+      "expected": "ASK",
+      "reaction": "ASK",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 0,
+      "tool_failures": {},
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 3.5,
+      "reply": "Happy to help! To plan your trip I need to know:\n1. When do you want to travel (first and last day)?"
+    },
+    {
+      "case": "R05",
+      "expected": "ASK",
+      "reaction": "ASK",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 0,
+      "tool_failures": {},
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 3.4,
+      "reply": "Happy to help! To plan your trip I need to know:\n1. When do you want to travel (first and last day)?\n2. What is your maximum budget in EUR, and does it include flights, hotel and activities?"
+    },
+    {
+      "case": "R06",
+      "expected": "ASK",
+      "reaction": "ASK",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 0,
+      "tool_failures": {},
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 3.6,
+      "reply": "Happy to help! To plan your trip I need to know:\n1. Where would you like to go? We can offer Lisbon, Barcelona, Amsterdam, Prague, Vienna, Rome, Athens, Valencia, Split and Palermo - or should I pick for you?\n2. When do you want to travel (first and last day)?"
+    },
+    {
+      "case": "R07",
+      "expected": "ASK",
+      "reaction": "ASK",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 0,
+      "tool_failures": {},
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 3.6,
+      "reply": "Happy to help! To plan your trip I need to know:\n1. When do you want to travel (first and last day)?"
+    },
+    {
+      "case": "R08",
+      "expected": "DECLINE",
+      "reaction": "DECLINE",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 8,
+      "tool_failures": {
+        "timeout": 1
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 7.8,
+      "reply": "I'm sorry, but we cannot meet your request for a 4-star hotel in Prague from 14 to 16 November within a 300 EUR budget. All available options clash with your calendar due to your friend's birthday dinner in Munich. \n\nWould you like to:\n1. Choose other dates\n2. Choose another destination"
+    },
+    {
+      "case": "R09",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 436.0,
+      "tool_calls": 27,
+      "tool_failures": {
+        "timeout": 5
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 5.8,
+      "reply": "Here is your plan for Amsterdam, 2026-11-27 to 2026-11-29:\n- Outbound: FL-0017 on 2026-11-27, 15:30 -> 17:18 (direct), 72 EUR per person\n- Return: FL-0019 on 2026-11-29, 19:00 -> 21:24 (direct), 70 EUR per person\n- Hotel: Hotel Garden Amsterdam 7 (2 stars), 2 nights at 76 EUR per night, cancellation: free until 48h\nTotal for 2 travellers: 436 EUR\n\nUnfortunately, the forecast doesn't look promising for sunshine and being outdoors every day—rain is expected for all three days. Enjoy your trip anyway!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "R10",
+      "expected": "DECLINE",
+      "reaction": "DECLINE",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": 289.0,
+      "tool_calls": 18,
+      "tool_failures": {
+        "timeout": 2
+      },
+      "unrecovered_failures": [],
+      "turns": 1,
+      "seconds": 7.3,
+      "reply": "I understand your request, Mia. Unfortunately, the cheapest possible plan for Vienna from 2 to 4 November is 289 EUR, which exceeds your budget of 120 EUR. Here are your options:\n\n1. Raise the budget to at least 289 EUR\n2. Choose other dates\n3. Choose another destination"
+    },
+    {
+      "case": "D1",
+      "expected": "ASK",
+      "reaction": "DECLINE",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": null,
+      "tool_calls": 34,
+      "tool_failures": {
+        "timeout": 5
+      },
+      "unrecovered_failures": [],
+      "turns": 2,
+      "seconds": 8.6,
+      "reply": "Update: flight FL-0003 is cancelled, so I planned without it.\n\nI understand your request, Mia. Unfortunately, all flight options from Friday 13 to Monday 16 November clash with your team workshop in Berlin. We can either suggest choosing other dates or another destination. Please let us know how you would like to proceed."
+    },
+    {
+      "case": "D2",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 492.0,
+      "tool_calls": 62,
+      "tool_failures": {
+        "timeout": 10
+      },
+      "unrecovered_failures": [],
+      "turns": 2,
+      "seconds": 8.2,
+      "reply": "Update: your budget is now 770 EUR.\n\nHere is your plan for Barcelona, 2026-11-20 to 2026-11-23:\n- Outbound: FL-0008 on 2026-11-20, 18:05 -> 21:41 (1 stop), 69 EUR per person\n- Return: FL-0010 on 2026-11-23, 17:55 -> 21:25 (1 stop), 74 EUR per person\n- Hotel: Hostal Born (2 stars), 3 nights at 58 EUR per night, cancellation: free until 48h\n- 2026-11-21: Barcelona boat trip (outdoor), 8 EUR per person\n- 2026-11-22: Barcelona spa (indoor), 8 EUR per person\nTotal for 2 travellers: 492 EUR (budget 770 EUR)\n\nThe weather forecast shows some cloudy days with a chance of rain, but you should still be able to enjoy at least one sunny day. Enjoy your trip!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "D3",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 492.0,
+      "tool_calls": 62,
+      "tool_failures": {
+        "timeout": 10
+      },
+      "unrecovered_failures": [],
+      "turns": 2,
+      "seconds": 8.5,
+      "reply": "Update: storm warning for 2026-11-21, so no outdoor activities that day.\n\nHere is your plan for Barcelona, 2026-11-20 to 2026-11-23:\n- Outbound: FL-0008 on 2026-11-20, 18:05 -> 21:41 (1 stop), 69 EUR per person\n- Return: FL-0010 on 2026-11-23, 17:55 -> 21:25 (1 stop), 74 EUR per person\n- Hotel: Hostal Born (2 stars), 3 nights at 58 EUR per night, cancellation: free until 48h\n- 2026-11-21: Barcelona spa (indoor), 8 EUR per person\n- 2026-11-22: Barcelona boat trip (outdoor), 8 EUR per person\nTotal for 2 travellers: 492 EUR (budget 1100 EUR)\n\nGiven the storm warning for Saturday, some outdoor activities might not be feasible. The rest of your trip looks good—cloudy days with a chance of rain, followed by a sunny day on your last. Enjoy your trip!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "D4",
+      "expected": "PLAN",
+      "reaction": "PLAN",
+      "reaction_ok": true,
+      "plan_valid": true,
+      "violations": [],
+      "total_price": 664.0,
+      "tool_calls": 51,
+      "tool_failures": {
+        "timeout": 8
+      },
+      "unrecovered_failures": [],
+      "turns": 2,
+      "seconds": 8.4,
+      "reply": "Update: hotel HT-052 is sold out, so I looked for another one.\n\nHere is your plan for Amsterdam, 2026-11-06 to 2026-11-08:\n- Outbound: FL-0012 on 2026-11-06, 16:10 -> 19:46 (direct), 58 EUR per person\n- Return: FL-0015 on 2026-11-08, 20:10 -> 21:46 (direct), 49 EUR per person\n- Hotel: Hotel De Zon (3 stars), 2 nights at 118 EUR per night, cancellation: non refundable\nTotal for 4 travellers: 664 EUR (budget 1500 EUR)\n\nThere's a tight schedule between your children finishing school and your departure, so please confirm the pick-up arrangements. Unfortunately, the weather forecast isn't very sunny, with rain expected on both Friday and Saturday. Enjoy your trip nonetheless!\n\nShall I prepare the booking? Nothing is booked without your explicit 'yes'."
+    },
+    {
+      "case": "D5",
+      "expected": "ASK",
+      "reaction": "DECLINE",
+      "reaction_ok": true,
+      "plan_valid": null,
+      "violations": [],
+      "total_price": 498.0,
+      "tool_calls": 48,
+      "tool_failures": {
+        "timeout": 8
+      },
+      "unrecovered_failures": [],
+      "turns": 2,
+      "seconds": 9.1,
+      "reply": "Update: one more traveller, now 2.\n\nI understand your request, Mia. Unfortunately, we cannot meet your exact requirements due to the cheapest possible plan costing 498 EUR, which exceeds your budget of 450 EUR. Here are your options:\n\n1. Raise the budget to at least 498 EUR.\n2. Choose other dates.\n3. Choose another destination."
+    }
+  ]
+}

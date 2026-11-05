@@ -19,6 +19,7 @@ CALENDAR_DIR = PROJECT_ROOT / "calendars"
 RESULTS_DIR = PROJECT_ROOT / "results"
 EVAL_DIR = PROJECT_ROOT / "eval"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
+EVAL_CASES_FILE = EVAL_DIR / "cases.json"  # expected behaviour per request/disruption
 
 # Individual data files
 FLIGHTS_FILE = DATA_DIR / "flights.json"

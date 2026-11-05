@@ -1,5 +1,6 @@
 # Personal notes (local only)
 MEINE_NOTIZEN.md
+PRAESENTATION_BRIEFING.md
 
 # Environment
 .venv/
@@ -16,3 +17,15 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# --- upload-ignore ---
+.env
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+vector_databases/
+taxi.db
+yellow_tripdata_*.parquet

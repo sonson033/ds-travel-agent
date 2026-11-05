@@ -1,0 +1,90 @@
+{
+  "note": "Expected agent behaviour per trip request and disruption. PLAN = a valid plan exists, ASK = the agent must ask before planning, DECLINE = impossible, the agent must say so and offer alternatives.",
+  "requests": [
+    {
+      "request_id": "R01",
+      "expected": "PLAN",
+      "constraints": {
+        "destination": "LIS", "party": 1, "start_date": "2026-11-13", "end_date": "2026-11-16",
+        "budget_total": 450, "budget_includes": ["flights", "hotel"], "hotel_requirements": ["free_cancellation"]
+      },
+      "reason": "Cheapest valid plan 351 EUR. Only FL-0003 leaves after the workshop. free_until_48h does not count as free cancellation.",
+      "reference_plan": {
+        "flights": {"outbound": "FL-0003", "return": "FL-0004"},
+        "hotel": {"hotel_id": "HT-081", "nights": 3}
+      }
+    },
+    {
+      "request_id": "R02",
+      "expected": "PLAN",
+      "constraints": {
+        "destination": "BCN", "party": 2, "start_date": "2026-11-20", "end_date": "2026-11-23",
+        "budget_total": 1100, "budget_includes": ["flights", "hotel", "activities"], "min_activities_per_day": 1
+      },
+      "reason": "Cheapest valid plan with one activity per full day (Sat, Sun) 546 EUR.",
+      "reference_plan": {
+        "flights": {"outbound": "FL-0008", "return": "FL-0010"},
+        "hotel": {"hotel_id": "HT-083", "nights": 3},
+        "activities": [{"activity_id": "AC-016", "date": "2026-11-21"}, {"activity_id": "AC-013", "date": "2026-11-22"}]
+      }
+    },
+    {
+      "request_id": "R03",
+      "expected": "PLAN",
+      "constraints": {
+        "destination": "AMS", "party": 4, "start_date": "2026-11-06", "end_date": "2026-11-08",
+        "budget_total": 1500, "budget_includes": ["flights", "hotel", "activities"],
+        "hotel_requirements": ["step_free_with_elevator"]
+      },
+      "reason": "Valid plan 634 EUR with FL-0012, 70 min after school (warning: agent should ask). HT-086 is a trap: step-free only in the listing.",
+      "reference_plan": {
+        "flights": {"outbound": "FL-0012", "return": "FL-0015"},
+        "hotel": {"hotel_id": "HT-052", "nights": 2}
+      }
+    },
+    {"request_id": "R04", "expected": "ASK", "missing": ["dates"], "reason": "No dates. 'Warm' can be read from the weather data."},
+    {"request_id": "R05", "expected": "ASK", "missing": ["dates", "budget"], "reason": "No dates and no number for 'nothing too expensive'."},
+    {"request_id": "R06", "expected": "ASK", "missing": ["destination", "duration", "budget"], "reason": "Only the start is known: after 20 Nov (calendar: deadline all day on the 20th)."},
+    {"request_id": "R07", "expected": "ASK", "missing": ["dates", "destination", "budget"], "reason": "Nothing fixed except the accessible hotel from the persona. Walking effort of activities is not in the data."},
+    {
+      "request_id": "R08",
+      "expected": "DECLINE",
+      "constraints": {
+        "destination": "PRG", "party": 2, "start_date": "2026-11-14", "end_date": "2026-11-16",
+        "budget_total": 300, "budget_includes": ["flights", "hotel", "activities"], "hotel_requirements": ["min_stars_4", "breakfast"]
+      },
+      "reason": "At least 530 EUR, and both outbound flights clash with the birthday dinner in Munich."
+    },
+    {
+      "request_id": "R09",
+      "expected": "PLAN",
+      "constraints": {"destination": "AMS", "party": 2, "start_date": "2026-11-27", "end_date": "2026-11-29"},
+      "reason": "The trip is possible, but rain is forecast on all days and Amsterdam has no sunny day in November. The agent must say so (sunshine is not a hard constraint).",
+      "reference_plan": {
+        "flights": {"outbound": "FL-0017", "return": "FL-0019"},
+        "hotel": {"hotel_id": "HT-055", "nights": 2}
+      }
+    },
+    {
+      "request_id": "R10",
+      "expected": "DECLINE",
+      "constraints": {
+        "destination": "VIE", "party": 1, "start_date": "2026-11-02", "end_date": "2026-11-04",
+        "budget_total": 120, "budget_includes": ["flights", "hotel"]
+      },
+      "reason": "The cheapest flights alone cost 135 EUR."
+    }
+  ],
+  "disruptions": [
+    {"event_id": "D1", "request_id": "R01", "expected": "ASK", "constraint_changes": {},
+     "reason": "FL-0003 is cancelled. The other flights on 13 Nov clash with the workshop; the agent must show the trade-offs and ask."},
+    {"event_id": "D2", "request_id": "R02", "expected": "PLAN", "constraint_changes": {"budget_total": 770},
+     "reason": "1100 EUR minus 30 percent. The 546 EUR plan still fits."},
+    {"event_id": "D3", "request_id": "R02", "expected": "PLAN", "constraint_changes": {"no_outdoor_dates": ["2026-11-21"]},
+     "reason": "Storm warning for Saturday (weather.json says sunny). Saturday needs an indoor activity."},
+    {"event_id": "D4", "request_id": "R03", "expected": "PLAN", "constraint_changes": {},
+     "reason": "The chosen hotel is sold out. Another accessible hotel exists (HT-085, HT-084, HT-049); never HT-086."},
+    {"event_id": "D5", "request_id": "R01", "expected": "ASK", "constraint_changes": {"party": 2},
+     "reason": "Two travellers cost at least 498 EUR, the budget is 450 EUR. The agent must ask whether the budget can grow."}
+  ]
+}
